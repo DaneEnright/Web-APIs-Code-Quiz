@@ -5,33 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APIs Code Quiz</title>
-    <link rel="sytlesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 <header>
-        <button id = "Start Game">Start Game</button>
+       <h1>Coding Quiz Challenge</h1>
+       <p> Try to answer following code-related questions within the time limit. Keep in mind incorrect answers penalize your score/time by 10 seconds.</p>
+       <button id = "Start Game">Start Game</button>
 </header>
 
 <main>
-    <div class ="card">
-        <h1>Questions</h1>
-        <ul class = "container">
-            <li><a href ="#A">Answer A:</a></li>
-            <li><a href ="#B">Answer B:</a></li>
-            <li><a href = "#C">Answer C:</a></li>
-            <li><a href = "#D">Answer D:</a></li>
-        </ul>
+    
+    <div class ="card hide" >
+        <h2>Questions</h2>
+        <h3 class = "Question-Titles"></h3>
+        <ul class = "container"></ul>
     </div>
 
-    <div id = "final score">
+    <div id = "final-score "class = "hide"> 
         <p>Add your scores to the high scores list</p>
         <label for="initials">Your Initials:</label>
         <input type ="text" id="initials" name="initials"/>
         <button id = "Submit">Submit</button>
     </div>
 
-    </main>
+</main>
   <script src="./script.js"></script>  
 </body>
 </html>
