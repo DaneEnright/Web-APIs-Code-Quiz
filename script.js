@@ -9,15 +9,16 @@ var arrayJavaScript = [
   "numbers & strings",
   "other arrays",
   "booleans",
-  "all of the above",
+  "all of the above"
 ];
 var ifElseStatement = [
   "quotes",
   "curly brackets",
   "parantheses",
-  "square brackets",
+  "square brackets"
 ];
 var stringValues = ["commas", "curly brackets", "quotes", "parantheses"];
+var deBugger = ["Javascript", "Terminal/Gitbash", "for loops", "console.log"];
 
 
 var button = document.querySelector(".button");
@@ -45,7 +46,8 @@ function startQuiz() {
 var question1 = "Commonly used data types do not include: ";
 var question2 = "Arrays in Javascript can be used to store: ";
 var question3 = "The condtion of an if/else statement is enclosed within:";
-var question4b= "String values must be enclised within "
+var question4= "String values must be enclosed within _________ when being assigned variables ";
+var question5= "A very useful tool used during development and debugging for printing content to debugger is ";
 
 
 
@@ -79,9 +81,9 @@ var question4b= "String values must be enclised within "
 
 
 
-var carousel = document.querySelector(".carouselbox");
-// TODO: Which element is the following line of code selecting?
-var next = carousel.querySelector(".next"); // This line is selecting class=next as the element
-var prev = carousel.querySelector(".prev"); // This line is selecting class=prev as the element
-var index = 0; //Set invitial value in the array to the first element
-var currentImage;
+// var carousel = document.querySelector(".carouselbox");
+// // TODO: Which element is the following line of code selecting?
+// var next = carousel.querySelector(".next"); // This line is selecting class=next as the element
+// var prev = carousel.querySelector(".prev"); // This line is selecting class=prev as the element
+// var index = 0; //Set invitial value in the array to the first element
+// var currentImage;
