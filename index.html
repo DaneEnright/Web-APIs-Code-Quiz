@@ -11,16 +11,24 @@
 <body>
 <header>
        <h1>Coding Quiz Challenge</h1>
-       <p> Try to answer following code-related questions within the time limit. Keep in mind incorrect answers penalize your score/time by 10 seconds.</p>
-       <button id = "Start Game">Start Game</button>
+       <p> Try to answer following code-related questions within the time limit. Keep in mind incorrect answers penalize your score/time by 5 seconds.</p>
+       <button id = "startGame">Start Game</button>
 </header>
 
 <main>
+    <div>
+        <h2 id = "timer">Timer</h2>
+    </div>
     
-    <div class ="card hide" >
+    <div id = "test-display"class ="card hide" >
         <h2>Questions</h2>
         <h3 class = "Question-Titles"></h3>
-        <ul class = "container"></ul>
+        <button id = "A" class = "buttonAnswers"></button>
+        <button id = "B" class = "buttonAnswers"></button>
+        <button id = "C" class = "buttonAnswers"></button>
+        <button id = "D" class = "buttonAnswers"></button>
+
+        <!-- <ul class = "container"></ul> -->
     </div>
 
     <div id = "final-score "class = "hide"> 
